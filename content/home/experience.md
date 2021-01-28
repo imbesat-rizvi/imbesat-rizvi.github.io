@@ -1,3 +1,4 @@
+
 +++
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
@@ -19,10 +20,10 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Research Associate"
-  company = "Indian Institute of Science (IISc)"
-  company_url = "https://www.iisc.ac.in/"
+  company = "Robert Bosch Centre for Cyber-Physical Systems, Indian Institute of Science (IISc)"
+  company_url = "https://cps.iisc.ac.in/"
   location = "Bangalore, India"
-  date_start = "2020-10-01"
+  date_start = "2020-10-20"
   date_end = ""
   description = ""
 
@@ -32,7 +33,7 @@ date_format = "Jan 2006"
   company_url = "https://www8.hp.com/us/en/home.html"
   location = "Bangalore, India"
   date_start = "2019-11-01"
-  date_end = "2020-09-30"
+  date_end = "2020-10-16"
   description = ""
 #   """
 #   Responsibilities include:
@@ -47,7 +48,7 @@ date_format = "Jan 2006"
   company = "Hewlett Packard (HP) Inc."
   company_url = "https://www8.hp.com/us/en/home.html"
   location = "Bangalore, India"
-  date_start = "2017-07-01"
+  date_start = "2017-07-26"
   date_end = "2019-10-31"
   description = ""
 
@@ -57,7 +58,7 @@ date_format = "Jan 2006"
   company_url = "https://iocl.com/"
   location = "Dhanbad, India"
   date_start = "2013-02-01"
-  date_end = "2015-06-30"
+  date_end = "2015-07-02"
   description = ""
 
 +++

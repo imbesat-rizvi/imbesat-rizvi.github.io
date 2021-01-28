@@ -14,17 +14,18 @@ role: Research Associate
 
 # Organizations/Affiliations
 organizations:
-- name: Indian Institute of Science (IISc)
-  url: "https://www.iisc.ac.in/"
+- name: Robert Bosch Centre for Cyber-Physical Systems, Indian Institute of Science (IISc)
+  url: "https://cps.iisc.ac.in/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include reinforcement learning, grounded language learning, robotics and human-robot interaction.
 
 interests:
 - Artificial Intelligence
 - Reinforcement Learning
 - Grounded Language Learning
 - Robotics
+- Human-Robot Interaction
 - Multimodal Machine Learning
 
 education:
@@ -55,9 +56,9 @@ social:
   link: https://github.com/imbesat-rizvi
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/Md_Imbesat_Hassan_Rizvi_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -69,4 +70,4 @@ user_groups:
 - Visitors
 ---
 
-Md Imbesat Hassan Rizvi is a Research Associate at the [Robert Bosch Centre for Cyber-Physical Systems (RBCCPS)](https://cps.iisc.ac.in/), [Indian Institute of Science (IISc)](https://www.iisc.ac.in/). His research interests include reinforcement learning, robotics and grounded language learning. He is currently working on providing natural language based instructions to robots.
+Md Imbesat Hassan Rizvi is a Research Associate at the [Robert Bosch Centre for Cyber-Physical Systems (RBCCPS)](https://cps.iisc.ac.in/), [Indian Institute of Science (IISc)](https://www.iisc.ac.in/). His research interests include reinforcement learning, grounded language learning, robotics and human-robot interaction. He is currently working on enabling robots to execute actions through NLP and RL integration.
