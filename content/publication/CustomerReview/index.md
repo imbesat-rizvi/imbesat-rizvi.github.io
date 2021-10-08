@@ -41,14 +41,14 @@ abstract: |
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
-# links:
-# - name: DOI
-#   url: https://dl.acm.org/doi/10.1145/3209280.3229113
+links:
+- name: DOI
+  url: https://dl.acm.org/doi/10.1145/3209280.3229113
 
-url_pdf: 'https://dl.acm.org/doi/10.1145/3209280.3229113'
+url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3209280.3229113'
 url_code: ''
 url_dataset: ''
 url_poster: ''
