@@ -48,7 +48,7 @@ links:
 - name: DOI
   url:  https://doi.org/10.1007/s00231-013-1117-z
 
-url_pdf: 'https://link.springer.com/content/pdf/10.1007/s00231-013-1117-z.pdf'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''

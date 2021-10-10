@@ -56,7 +56,7 @@ links:
 - name: DOI
   url:  https://doi.org/10.1108/ILT-03-2012-0024
 
-url_pdf: 'https://www.emerald.com/insight/content/doi/10.1108/ILT-03-2012-0024/full/pdf'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
