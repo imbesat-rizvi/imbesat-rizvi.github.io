@@ -1,5 +1,5 @@
 ---
-title: "MIMICause : Defining, identifying and predicting types of causal relationships from clinical notes"
+title: "MIMICause : Defining, identifying and predicting types of causal relationships between biomedical concepts from clinical notes"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -17,7 +17,7 @@ author_notes:
 - "Equal contribution"
 - "Equal contribution"
 
-date: "2021-10-01T00:00:00Z"
+date: "2021-10-14T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -30,14 +30,14 @@ publishDate: "2021-10-05T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Submission*
-publication_short: In *Submission*
+publication: In *arXiv*
+publication_short: In *arXiv*
 
 abstract: |
 
-  Understanding of causal narratives communicated in clinical texts can play major role towards personalised healthcare. In this work, MIMICause, we propose  annotation guidelines, develop an annotated corpus and provide baseline scores to identify types and direction of causal relations between a pair of biomedical concepts in clinical texts; communicated implicitly or explicitly, identified either in a single sentence or across multiple sentences. 
+  Understanding of causal narratives communicated in clinical notes can help make strides towards personalized healthcare. In this work, MIMICause, we propose annotation guidelines, develop an annotated corpus and provide baseline scores to identify types and direction of causal relations between a pair of biomedical concepts in clinical notes; communicated implicitly or explicitly, identified either in a single sentence or across multiple sentences.
 
-  We annotate a total of 2714 de-identified examples sampled from the 2018 n2c2 shared task dataset and train 4 different language model based architectures. Annotation based on our guidelines achieved a high inter-annotator agreement i.e. Fleiss' kappa ($\kappa$) score of 0.717 and our model for identification of causal relation achieved a macro F1 score of 0.56 on test data. The high inter-annotator agreement for clinical text shows quality of our annotation guideline while the provided baseline F1 score sets the direction for future research towards understanding of narratives in clinical texts.
+  We annotate a total of 2714 de-identified examples sampled from the 2018 n2c2 shared task dataset and train four different language model based architectures. Annotation based on our guidelines achieved a high inter-annotator agreement i.e. Fleiss' kappa score of 0.72 and our model for identification of causal relation achieved a macro F1 score of 0.56 on test data. The high inter-annotator agreement for clinical text shows the quality of our annotation guidelines while the provided baseline F1 score sets the direction for future research towards understanding narratives in clinical texts.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -48,11 +48,11 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2110.07090
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2110.07090.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
