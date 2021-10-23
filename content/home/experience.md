@@ -32,9 +32,9 @@ experience:
     description: |1-
 
         * Working on Human-Robot Interaction (HRI) for social robots.
-        * Enabled (i) two-way remote speech communication with phoneme segmentation based lip synchronization and (ii) Wav2Vec2 based speech to text conversion followed by NLP based action identification and execution on social tele-robot *"Asha"*. 
+        * Enabled (i) two-way remote speech communication with phoneme segmentation based lip synchronization and (ii) Wav2Vec2 based speech to text conversion followed by NLP based semantic action identification and execution on social tele-robot *"Asha"*. 
         * Part of the work open sourced as [*sonorus*](https://pypi.org/project/sonorus/) pypi package and [*imperio*](https://github.com/pensieves/imperio) github repository.
-        * Member of team [*"Aham"*](https://aham-avatar.org/demo/) -- one of the [thirty eight teams selected for the semi-finals](https://www.xprize.org/prizes/avatar/articles/38-semifinalist-teams-from-16-countries-aim-to-create-an-avatar-system) of the [ANA Avatar XPRIZE competition](https://www.xprize.org/prizes/avatar).
+        * Our team [*"Aham"*](https://aham-avatar.org/demo/) is one of the finalists in the International Conference on Social Robotics (ICSR), 2021 (Competition track) and is also among the [thirty eight semi-finalists](https://www.xprize.org/prizes/avatar/articles/38-semifinalist-teams-from-16-countries-aim-to-create-an-avatar-system) of the [ANA Avatar XPRIZE competition](https://www.xprize.org/prizes/avatar).
         
   - title: Senior Machine Learning Engineer
     company: Hewlett Packard (HP) Inc.
