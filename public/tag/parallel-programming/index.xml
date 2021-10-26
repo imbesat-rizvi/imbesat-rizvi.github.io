@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parallel Programming | Md Imbesat Hassan Rizvi</title>
+    <link>https://imbesat-rizvi.github.io/tag/parallel-programming/</link>
+      <atom:link href="https://imbesat-rizvi.github.io/tag/parallel-programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Parallel Programming</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 May 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://imbesat-rizvi.github.io/media/icon_huac6414d9e19f7ce369aa298cff594cc4_578749_512x512_fill_lanczos_center_3.png</url>
+      <title>Parallel Programming</title>
+      <link>https://imbesat-rizvi.github.io/tag/parallel-programming/</link>
+    </image>
+    
+    <item>
+      <title>Parallel Hybrid (Cuda and MPI) implementation of Support Vector Machines (SVM)</title>
+      <link>https://imbesat-rizvi.github.io/project/parallelhybridsvm/</link>
+      <pubDate>Sat, 14 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/parallelhybridsvm/</guid>
+      <description>&lt;p&gt;Support Vector Machines (SVMs) are powerful but computationally expensive machine learning (ML) algorithm for supervised classification task which is frequently witnessed in the ML domain. For optimization of objective function SMO is widely used while for large dataset Cascading approach is well suited. Both of these are parallelizable in orthogonal sense i.e. independent of each other. Motivated by these, in this project, we have implemented a hybrid version of both the above mentioned techniques with SMO being implemented using CUDA while cascading being implemented using MPI.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

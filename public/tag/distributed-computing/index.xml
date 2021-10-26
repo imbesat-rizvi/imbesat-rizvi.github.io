@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Distributed Computing | Md Imbesat Hassan Rizvi</title>
+    <link>https://imbesat-rizvi.github.io/tag/distributed-computing/</link>
+      <atom:link href="https://imbesat-rizvi.github.io/tag/distributed-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Distributed Computing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 May 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://imbesat-rizvi.github.io/media/icon_huac6414d9e19f7ce369aa298cff594cc4_578749_512x512_fill_lanczos_center_3.png</url>
+      <title>Distributed Computing</title>
+      <link>https://imbesat-rizvi.github.io/tag/distributed-computing/</link>
+    </image>
+    
+    <item>
+      <title>Parallel Hybrid (Cuda and MPI) implementation of Support Vector Machines (SVM)</title>
+      <link>https://imbesat-rizvi.github.io/project/parallelhybridsvm/</link>
+      <pubDate>Sat, 14 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/parallelhybridsvm/</guid>
+      <description>&lt;p&gt;Support Vector Machines (SVMs) are powerful but computationally expensive machine learning (ML) algorithm for supervised classification task which is frequently witnessed in the ML domain. For optimization of objective function SMO is widely used while for large dataset Cascading approach is well suited. Both of these are parallelizable in orthogonal sense i.e. independent of each other. Motivated by these, in this project, we have implemented a hybrid version of both the above mentioned techniques with SMO being implemented using CUDA while cascading being implemented using MPI.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Real-time probablistic count (Durand-Flajolet) implementation using Apache Storm</title>
+      <link>https://imbesat-rizvi.github.io/project/streaminganalytics/</link>
+      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/streaminganalytics/</guid>
+      <description>&lt;p&gt;Distributed stream processing of meetup.com streams for probabilistic counting by &lt;a href=&#34;http://algo.inria.fr/flajolet/Publications/DuFl03.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Durand-Flajolet algorithm&lt;/a&gt; using Apache Storm. Streams of data can be processed for the purpose of distinct or unique count of field enteries which can be of interest to us. This nature of problem is referred to as “Counting distinct elements in a stream”. The data processed for the project was from meetup.com &lt;a href=&#34;https://www.meetup.com/meetup_api/docs/stream/2/rsvps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSVP&lt;/a&gt; and &lt;a href=&#34;https://www.meetup.com/meetup_api/docs/stream/2/open_events/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EVENT&lt;/a&gt; streams.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

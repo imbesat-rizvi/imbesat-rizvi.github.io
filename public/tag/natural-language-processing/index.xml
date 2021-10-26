@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natural Language Processing | Md Imbesat Hassan Rizvi</title>
+    <link>https://imbesat-rizvi.github.io/tag/natural-language-processing/</link>
+      <atom:link href="https://imbesat-rizvi.github.io/tag/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Natural Language Processing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://imbesat-rizvi.github.io/media/icon_huac6414d9e19f7ce369aa298cff594cc4_578749_512x512_fill_lanczos_center_3.png</url>
+      <title>Natural Language Processing</title>
+      <link>https://imbesat-rizvi.github.io/tag/natural-language-processing/</link>
+    </image>
+    
+    <item>
+      <title>Retrofitting Word Vectors to Semantic Lexicons</title>
+      <link>https://imbesat-rizvi.github.io/project/retrofit/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/retrofit/</guid>
+      <description>&lt;p&gt;A vectorized iterative implementation of the paper &lt;a href=&#34;https://aclanthology.org/N15-1184.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Retrofitting Word Vectors to Semantic Lexicons&amp;rdquo;&lt;/a&gt; in which the vector space representations are further refined using relational information from the semantic lexicons. Word vectors are usually learned from distributional information of words in large corpora but they don&amp;rsquo;t have valuable information that are contained in semantic lexicons such as WordNet, FrameNet and the Paraphrase Database. This implementation based on the source paper refines vector space representations using relational information from semantic lexicons by encouraging linked words to have similar vector representations, making no assumptions about how the input vectors were constructed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

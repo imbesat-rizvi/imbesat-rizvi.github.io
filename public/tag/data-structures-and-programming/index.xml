@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structures and Programming | Md Imbesat Hassan Rizvi</title>
+    <link>https://imbesat-rizvi.github.io/tag/data-structures-and-programming/</link>
+      <atom:link href="https://imbesat-rizvi.github.io/tag/data-structures-and-programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Structures and Programming</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://imbesat-rizvi.github.io/media/icon_huac6414d9e19f7ce369aa298cff594cc4_578749_512x512_fill_lanczos_center_3.png</url>
+      <title>Data Structures and Programming</title>
+      <link>https://imbesat-rizvi.github.io/tag/data-structures-and-programming/</link>
+    </image>
+    
+    <item>
+      <title>Command line scientific calculator</title>
+      <link>https://imbesat-rizvi.github.io/project/scientificcalculator/</link>
+      <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/scientificcalculator/</guid>
+      <description>&lt;p&gt;This is a small project to make a command line Scientific Calculator which can work upon both Real as well as Complex numbers. On compiling, one would be able to provide the expression to be evaluated as the first command line argument. For bracketing, one can use all the three types of brackets i.e. &amp;lsquo;(&amp;rsquo; or &amp;lsquo;{&amp;rsquo; or &amp;lsquo;[&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;At present, the operators suppported are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;+ for Addition&lt;/li&gt;
+&lt;li&gt;- for Subtraction&lt;/li&gt;
+&lt;li&gt;* for Multiplication&lt;/li&gt;
+&lt;li&gt;/ for Division&lt;/li&gt;
+&lt;li&gt;+ for Unary Plus&lt;/li&gt;
+&lt;li&gt;- for Unary Minus&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The functions presently supported are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;sin&lt;/li&gt;
+&lt;li&gt;cos&lt;/li&gt;
+&lt;li&gt;tan&lt;/li&gt;
+&lt;li&gt;log for natural logarithm&lt;/li&gt;
+&lt;li&gt;exp for natural exponentiation&lt;/li&gt;
+&lt;li&gt;abs for absolute value&lt;/li&gt;
+&lt;li&gt;sqrt for calculating square root&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
