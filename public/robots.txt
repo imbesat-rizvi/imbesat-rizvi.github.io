@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://imbesat-rizvi.github.io/sitemap.xml

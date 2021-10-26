@@ -5,7 +5,7 @@
     <link>https://imbesat-rizvi.github.io/project/</link>
       <atom:link href="https://imbesat-rizvi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://imbesat-rizvi.github.io/media/icon_huac6414d9e19f7ce369aa298cff594cc4_578749_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,15 +13,57 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://imbesat-rizvi.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://imbesat-rizvi.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>Retrofitting Word Vectors to Semantic Lexicons</title>
+      <link>https://imbesat-rizvi.github.io/project/retrofit/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/retrofit/</guid>
+      <description>&lt;p&gt;A vectorized iterative implementation of the paper &lt;a href=&#34;https://aclanthology.org/N15-1184.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Retrofitting Word Vectors to Semantic Lexicons&amp;rdquo;&lt;/a&gt; in which the vector space representations are further refined using relational information from the semantic lexicons. Word vectors are usually learned from distributional information of words in large corpora but they don&amp;rsquo;t have valuable information that are contained in semantic lexicons such as WordNet, FrameNet and the Paraphrase Database. This implementation based on the source paper refines vector space representations using relational information from semantic lexicons by encouraging linked words to have similar vector representations, making no assumptions about how the input vectors were constructed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Parallel Hybrid (Cuda and MPI) implementation of Support Vector Machines (SVM)</title>
+      <link>https://imbesat-rizvi.github.io/project/parallelhybridsvm/</link>
+      <pubDate>Sat, 14 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/parallelhybridsvm/</guid>
+      <description>&lt;p&gt;Support Vector Machines (SVMs) are powerful but computationally expensive machine learning (ML) algorithm for supervised classification task which is frequently witnessed in the ML domain. For optimization of objective function SMO is widely used while for large dataset Cascading approach is well suited. Both of these are parallelizable in orthogonal sense i.e. independent of each other. Motivated by these, in this project, we have implemented a hybrid version of both the above mentioned techniques with SMO being implemented using CUDA while cascading being implemented using MPI.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Real-time probablistic count (Durand-Flajolet) implementation using Apache Storm</title>
+      <link>https://imbesat-rizvi.github.io/project/streaminganalytics/</link>
+      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/streaminganalytics/</guid>
+      <description>&lt;p&gt;Distributed stream processing of meetup.com streams for probabilistic counting by &lt;a href=&#34;http://algo.inria.fr/flajolet/Publications/DuFl03.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Durand-Flajolet algorithm&lt;/a&gt; using Apache Storm. Streams of data can be processed for the purpose of distinct or unique count of field enteries which can be of interest to us. This nature of problem is referred to as “Counting distinct elements in a stream”. The data processed for the project was from meetup.com &lt;a href=&#34;https://www.meetup.com/meetup_api/docs/stream/2/rsvps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSVP&lt;/a&gt; and &lt;a href=&#34;https://www.meetup.com/meetup_api/docs/stream/2/open_events/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EVENT&lt;/a&gt; streams.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Command line scientific calculator</title>
+      <link>https://imbesat-rizvi.github.io/project/scientificcalculator/</link>
+      <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/scientificcalculator/</guid>
+      <description>&lt;p&gt;This is a small project to make a command line Scientific Calculator which can work upon both Real as well as Complex numbers. On compiling, one would be able to provide the expression to be evaluated as the first command line argument. For bracketing, one can use all the three types of brackets i.e. &amp;lsquo;(&amp;rsquo; or &amp;lsquo;{&amp;rsquo; or &amp;lsquo;[&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;At present, the operators suppported are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;+ for Addition&lt;/li&gt;
+&lt;li&gt;- for Subtraction&lt;/li&gt;
+&lt;li&gt;* for Multiplication&lt;/li&gt;
+&lt;li&gt;/ for Division&lt;/li&gt;
+&lt;li&gt;+ for Unary Plus&lt;/li&gt;
+&lt;li&gt;- for Unary Minus&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The functions presently supported are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;sin&lt;/li&gt;
+&lt;li&gt;cos&lt;/li&gt;
+&lt;li&gt;tan&lt;/li&gt;
+&lt;li&gt;log for natural logarithm&lt;/li&gt;
+&lt;li&gt;exp for natural exponentiation&lt;/li&gt;
+&lt;li&gt;abs for absolute value&lt;/li&gt;
+&lt;li&gt;sqrt for calculating square root&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
