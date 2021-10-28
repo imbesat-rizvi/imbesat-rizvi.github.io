@@ -7,8 +7,8 @@ title: "Identifying causal associations in tweets using deep learning: Use case 
 authors:
 - Adrian Ahne
 - Vivek Khetan
-- admin
 - Xavier Tannier
+- admin
 - Thomas Czernichow
 - Francisco Orchard
 - Charline Bour
