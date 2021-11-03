@@ -1,8 +1,0 @@
-@misc{khetan2021mimicause,
-    title={MIMICause : Defining, identifying and predicting types of causal relationships between biomedical concepts from clinical notes},
-    author={Vivek Khetan and Md Imbesat Hassan Rizvi and Jessica Huber and Paige Bartusiak and Bogdan Sacaleanu and Andrew Fano},
-    year={2021},
-    eprint={2110.07090},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
-}

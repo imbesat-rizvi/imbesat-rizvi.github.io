@@ -33,18 +33,18 @@ publishDate: "2021-10-05T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Submission*
-publication_short: In *Submission*
+publication: In *arXiv*
+publication_short: In *arXiv*
 
 abstract: |
 
-  **Objective** -- The amount of available health-related textual data is growing rapidly, urging the necessity of extracting the relevant information between entities: *cause-effect* relationships, to get a better understanding of health-related questions. Leveraging machine learning methods, we aim to extract both explicit and implicit multi-word *cause-effect* associations in diabetes-related tweets, where opinion, feelings and observations are expressed in real-time.
+  **Objective** -- Leveraging machine learning methods, we aim to extract both explicit and implicit *cause-effect* associations in patient-reported, diabetes-related tweets and provide a tool to better understand opinion, feelings and observations shared within the diabetes online community from a causality perspective.
 
-  **Materials and Methods** -- More than 30 million diabetes-related tweets in English were collected between April 2017 and January 2021. Deep learning and natural language processing methods were applied to focus on relevant tweets with personal and emotional content. A *cause-effect-tweet* dataset was manually labeled and used to train 1) a fine-tuned Bertweet model to detect *causal sentences* containing a causal association 2) a CRF model with BERT based features to extract possible cause-effect associations. Active learning was applied to augment the training data efficiently.
+  **Materials and Methods** -- More than 30 million diabetes-related tweets in English were collected between April 2017 and January 2021. Deep learning and natural language processing methods were applied to focus on tweets with personal and emotional content. A *cause-effect-tweet* dataset was manually labeled and used to train 1) a fine-tuned Bertweet model to detect *causal sentences* containing a causal association 2) a CRF model with BERT based features to extract possible cause-effect associations. Causes and effects were clustered in a semi-supervised approach and visualised in an interactive cause-effect-network.
 
-  **Results** -- We were able to detect *causal sentences* with an accuracy of 71% in an imbalanced dataset. A CRF model with BERT based features outperformed a fine-tuned BERT model for *cause-effect* detection with a macro F1 of 68%. This led to 96,676 tweets with cause-effect associations. “Diabetes” was identified as the central cluster followed by “Death” and “Insulin”. Insulin pricing related causes were frequently associated with “Death”.
+  **Results** -- *Causal sentences* were detected with a recall of 68% in an imbalanced dataset. A CRF model with BERT based features outperformed a fine-tuned BERT model for *cause-effect* detection with a macro recall of 68%. This led to 96,676 sentences with cause-effect associations. “Diabetes” was identified as the central cluster followed by “Death” and “Insulin”. Insulin pricing related causes were frequently associated with “Death”.
 
-  **Conclusions** -- A novel methodology was developed to tackle the challenging task of detecting causal sentences and identifying both explicit and implicit, single and multi-word cause as well as corresponding effect as expressed in diabetes-related tweets leveraging BERT-based architectures in combination with a manually labeled dataset augmented via active learning. Extracting causal associations on real-life, patient reported outcomes in social media data provides a useful complementary source of information in diabetes research.  
+  **Conclusions** -- A novel methodology was developed to detect causal sentences and identify both explicit and implicit, single and multi-word cause and corresponding effect as expressed in diabetes-related tweets leveraging BERT-based architectures and visualised as cause-effect-network. Extracting causal associations on real-life, patient reported outcomes in social media data provides a useful complementary source of information in diabetes research.  
 
 
 # Summary. An optional shortened abstract.
@@ -56,11 +56,11 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: arXiv
-#   url: https://arxiv.org/abs/2110.07090
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2111.01225
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2111.01225.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
