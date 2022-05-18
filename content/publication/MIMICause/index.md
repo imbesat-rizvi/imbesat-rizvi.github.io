@@ -21,7 +21,7 @@ date: "2022-05-22T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-02-24T00:00:00Z"
+publishDate: "2022-05-18T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -51,10 +51,12 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
+- name: ACL
+  url: https://aclanthology.org/2022.findings-acl.63/
 - name: arXiv
   url: https://arxiv.org/abs/2110.07090
 
-url_pdf: 'https://arxiv.org/pdf/2110.07090.pdf'
+url_pdf: 'https://aclanthology.org/2022.findings-acl.63.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
