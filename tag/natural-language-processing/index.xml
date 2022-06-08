@@ -5,12 +5,29 @@
     <link>https://imbesat-rizvi.github.io/tag/natural-language-processing/</link>
       <atom:link href="https://imbesat-rizvi.github.io/tag/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>Natural Language Processing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://imbesat-rizvi.github.io/media/icon_hu4b1b6982fa683f413021000f273eeeea_400706_512x512_fill_lanczos_center_3.png</url>
       <title>Natural Language Processing</title>
       <link>https://imbesat-rizvi.github.io/tag/natural-language-processing/</link>
     </image>
+    
+    <item>
+      <title>Language identification using machine learning</title>
+      <link>https://imbesat-rizvi.github.io/project/languageidentification/</link>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/project/languageidentification/</guid>
+      <description>&lt;p&gt;A machine learning model for language identification. The model is trained using the huggingface dataset &amp;ldquo;&lt;a href=&#34;https://huggingface.co/datasets/papluca/language-identification&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;papluca/language-identification&lt;/a&gt;&amp;rdquo;. The dataset was created by collecting data from 3 sources: &lt;a href=&#34;https://huggingface.co/datasets/amazon_reviews_multi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multilingual Amazon Reviews Corpus&lt;/a&gt;, &lt;a href=&#34;https://huggingface.co/datasets/xnli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XNLI&lt;/a&gt;, and &lt;a href=&#34;https://huggingface.co/datasets/stsb_multi_mt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STSb Multi MT&lt;/a&gt;. The dataset contains text in the following 20 languages:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;arabic (ar), bulgarian (bg), german (de), modern greek (el), english (en), spanish (es), french (fr), hindi (hi), italian (it), japanese (ja), dutch (nl), polish (pl), portuguese (pt), russian (ru), swahili (sw), thai (th), turkish (tr), urdu (ur), vietnamese (vi), and chinese (zh)&lt;/code&gt;&lt;/p&gt;
+&lt;h5 id=&#34;model-description-and-training&#34;&gt;Model description and training:&lt;/h5&gt;
+&lt;p&gt;The language text is converted into a feature vector using a &lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TFIDF vectorizer&lt;/a&gt; which can be fit on either word, character (&amp;lsquo;char&amp;rsquo;) or character within word boundaries (&amp;lsquo;char_wb&amp;rsquo;) level. The vectorizer can also be fit on various n-gram ranges. The best performance was achieved with &amp;lsquo;char_wb&amp;rsquo; and an n-gram range of (3,4).&lt;/p&gt;
+&lt;p&gt;A Multinomial Naive Bayes (&lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MultinomialNB&lt;/a&gt;) model is trained for multi-class (20-language) classification with a smoothening factor (alpha) of 1. Other models were tried too but they were comparatively slow and didn&amp;rsquo;t lead to any significant increase in the accuracy.&lt;/p&gt;
+&lt;p&gt;Even with such a simple setting, the performance achieved was &lt;strong&gt;99.22%&lt;/strong&gt; accuracy on the test set of the &lt;a href=&#34;https://huggingface.co/datasets/papluca/language-identification&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;papluca/language-identification&lt;/a&gt; dataset. The achieved accuracy is competitive to the reported accuracy of 99.60% on the test set using their &lt;a href=&#34;https://huggingface.co/papluca/xlm-roberta-base-language-detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;papluca/xlm-roberta-base-language-detection&lt;/a&gt; model which is a finetuned version of the &lt;a href=&#34;https://huggingface.co/xlm-roberta-base&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xlm-roberta-base&lt;/a&gt; model.&lt;/p&gt;
+&lt;h5 id=&#34;prediction-and-accounting-for-unseen-languages-during-training&#34;&gt;Prediction and accounting for unseen languages during training:&lt;/h5&gt;
+&lt;p&gt;The trained model will only return prediction and probabilities for the 20 languages seen during training. Thus, using the model as is will incorrectly classify to one of those seen language categories even when the new text belongs to an unseen language. To address this, we use probability thresholding on the class with highest probability and report that class only when its probability is more than the threshold, otherwise report the class to be &amp;lsquo;Other&amp;rsquo; i.e. such a language was not seen during training.&lt;/p&gt;
+&lt;p&gt;This probability threshold can be played around with for a desired precision or recall value, as increasing this threshold will increase precision but some seen language examples can be classified as &amp;lsquo;Other&amp;rsquo;, while decreasing this threshold is going to increase the recall but more and more &amp;lsquo;unseen&amp;rsquo; languages will get incorrectly classified to one of the 20 seen languages. A probability threshold of 0.3 seemed to work well for the given dataset. In the &lt;a href=&#34;https://raw.githubusercontent.com/imbesat-rizvi/language-identification/main/demo/language-identification.gif&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo&lt;/a&gt; shown at the top, the last example was a gibberish input which was correctly classified as &amp;lsquo;Other&amp;rsquo; i.e. none of the seen languages.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Retrofitting Word Vectors to Semantic Lexicons</title>
