@@ -30,6 +30,52 @@
     </item>
     
     <item>
+      <title>MIMICause: Representation and automatic extraction of causal relation types from clinical notes</title>
+      <link>https://imbesat-rizvi.github.io/publication/mimicause/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/publication/mimicause/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Identifying causal relations in tweets using deep learning: Use case on diabetes-related tweets from 2017-2021</title>
+      <link>https://imbesat-rizvi.github.io/publication/causalassociationsintweets/</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/publication/causalassociationsintweets/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Retrofitting Word Vectors to Semantic Lexicons</title>
       <link>https://imbesat-rizvi.github.io/project/retrofit/</link>
       <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
