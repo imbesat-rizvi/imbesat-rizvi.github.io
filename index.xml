@@ -33,6 +33,29 @@
     </item>
     
     <item>
+      <title>Extraction of Explicit and Implicit Cause-Effect Relationships in Patient-Reported Diabetes-Related Tweets From 2017 to 2021: Deep Learning Approach</title>
+      <link>https://imbesat-rizvi.github.io/publication/causalassociationsintweets/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://imbesat-rizvi.github.io/publication/causalassociationsintweets/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Language identification using machine learning</title>
       <link>https://imbesat-rizvi.github.io/project/languageidentification/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
@@ -73,29 +96,6 @@ Supplementary notes can be added here, including [code, math, and images](https:
     </item>
     
     <item>
-      <title>Identifying causal relations in tweets using deep learning: Use case on diabetes-related tweets from 2017-2021</title>
-      <link>https://imbesat-rizvi.github.io/publication/causalassociationsintweets/</link>
-      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://imbesat-rizvi.github.io/publication/causalassociationsintweets/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>News</title>
       <link>https://imbesat-rizvi.github.io/news/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
@@ -109,12 +109,11 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 
-&lt;p&gt;&lt;strong&gt;[2022-02-24]&lt;/strong&gt; Our paper (as a first co-author) titled &amp;ldquo;&lt;a href=&#34;https://aclanthology.org/2022.findings-acl.63/&#34;&gt;MIMICause: Representation and automatic extraction of causal relation types from clinical notes&lt;/a&gt;&amp;rdquo; got accepted in the Findings of the Association for Computational Linguistics, ACL 2022&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[2021-11-17]&lt;/strong&gt; Our entry &amp;ndash; &amp;ldquo;&lt;a href=&#34;https://imbesat-rizvi.github.io/files/ICSR2021/Asha-ICSR-2021-Competition.pdf&#34;&gt;ASHA: A Tele-operated robot nurse&lt;/a&gt;&amp;rdquo; secured a &lt;a href=&#34;https://www.colips.org/conferences/icsr2021/wp/awards/&#34;&gt;runner-up position in the &amp;ldquo;Innovation in Responses to COVID-19&amp;rdquo; category&lt;/a&gt; of the International Conference on Social Robotics (ICSR) 2021 Robot Design Competition&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[2021-10-21]&lt;/strong&gt; Our entry titled &amp;ldquo;&lt;a href=&#34;https://imbesat-rizvi.github.io/files/ICSR2021/Asha-ICSR-2021-Competition.pdf&#34;&gt;ASHA: A Tele-operated robot nurse&lt;/a&gt;&amp;rdquo; submitted to the &lt;a href=&#34;https://www.colips.org/conferences/icsr2021/wp/competition/&#34;&gt;International Conference on Social Robotics (ICSR) 2021 Robot Design Competition&lt;/a&gt; is &lt;a href=&#34;https://www.colips.org/conferences/icsr2021/wp/awards/&#34;&gt;shortlisted as the finalists&lt;/a&gt; to be presented during the conference.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[2021-10-14]&lt;/strong&gt; Pre-print of our paper titled &amp;ldquo;&lt;a href=&#34;https://arxiv.org/abs/2110.07090&#34;&gt;MIMICause : Defining, identifying and predicting types of causal relationships between biomedical concepts from clinical notes&lt;/a&gt;&amp;rdquo; is live on arXiv.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[2021-06-16]&lt;/strong&gt; Published &lt;a href=&#34;https://pypi.org/project/sonorus/&#34;&gt;sonorus&lt;/a&gt; as an open-sourced python pypi package - a collection of audio and speech processing components for social robots and tele-robots.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[2021-04-05]&lt;/strong&gt; Our team &lt;a href=&#34;https://aham-avatar.org/demo/&#34;&gt;Aham&lt;/a&gt; is announced to be &lt;a href=&#34;https://www.xprize.org/prizes/avatar/articles/38-semifinalist-teams-from-16-countries-aim-to-create-an-avatar-system&#34;&gt;one of the 38 semifinalists&lt;/a&gt; in the &lt;a href=&#34;https://www.xprize.org/prizes/avatar&#34;&gt;ANA Avatar XPRIZE competition&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[2022-07-19] Our paper titled &amp;ldquo;&lt;a href=&#34;https://medinform.jmir.org/2022/7/e37201/&#34;&gt;Extraction of Explicit and Implicit Cause-Effect Relationships in Patient-Reported Diabetes-Related Tweets From 2017 to 2021: Deep Learning Approach&lt;/a&gt;&amp;rdquo; is published in the Journal of Medical Internet Research (JMIR) Medical Informatics 2022.&lt;/p&gt;
+&lt;p&gt;[2022-02-24] Our paper titled &amp;ldquo;&lt;a href=&#34;https://aclanthology.org/2022.findings-acl.63/&#34;&gt;MIMICause: Representation and automatic extraction of causal relation types from clinical notes&lt;/a&gt;&amp;rdquo; got accepted in the Findings of the Association for Computational Linguistics, ACL 2022&lt;/p&gt;
+&lt;p&gt;[2021-11-17] Our entry &amp;ndash; &amp;ldquo;&lt;a href=&#34;https://imbesat-rizvi.github.io/files/ICSR2021/Asha-ICSR-2021-Competition.pdf&#34;&gt;ASHA: A Tele-operated robot nurse&lt;/a&gt;&amp;rdquo; secured a &lt;a href=&#34;https://imbesat-rizvi.github.io/files/ICSR2021/Asha-ICSR2021-Competition-Awards-Certificate.pdf&#34;&gt;runner-up&lt;/a&gt; position in the &amp;ldquo;Innovation in Responses to COVID-19&amp;rdquo; category of the &lt;a href=&#34;https://www.colips.org/conferences/icsr2021/wp/awards/&#34;&gt;International Conference on Social Robotics (ICSR) 2021 Robot Design Competition&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[2021-10-21] Our entry titled &amp;ldquo;&lt;a href=&#34;https://imbesat-rizvi.github.io/files/ICSR2021/Asha-ICSR-2021-Competition.pdf&#34;&gt;ASHA: A Tele-operated robot nurse&lt;/a&gt;&amp;rdquo; submitted to the &lt;a href=&#34;https://www.colips.org/conferences/icsr2021/wp/competition/&#34;&gt;International Conference on Social Robotics (ICSR) 2021 Robot Design Competition&lt;/a&gt; is &lt;a href=&#34;https://www.colips.org/conferences/icsr2021/wp/awards/&#34;&gt;shortlisted as the finalists&lt;/a&gt; to be presented during the conference.&lt;/p&gt;
+&lt;p&gt;[2021-04-05] Our team &lt;a href=&#34;https://aham-avatar.org/demo/&#34;&gt;Aham&lt;/a&gt; is announced to be &lt;a href=&#34;https://www.xprize.org/prizes/avatar/articles/38-semifinalist-teams-from-16-countries-aim-to-create-an-avatar-system&#34;&gt;one of the 38 semifinalists&lt;/a&gt; in the &lt;a href=&#34;https://www.xprize.org/prizes/avatar&#34;&gt;ANA Avatar XPRIZE competition&lt;/a&gt;.&lt;/p&gt;
 
 </description>
     </item>
